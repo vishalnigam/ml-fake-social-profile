@@ -74,11 +74,14 @@ Baseline modelling with DummyClassfier
 
 **Model Performance**
 - Run all the classifier algorithms - KNN, Logistic regression, Decision Tree and SVM, with default hyperparameters
+
  ![Model Performance - Before](<images/model-performance-before.png>)
- 
+
  ![tabular-before](<images/model-perf-tabular-before.png>)
+
 - Execute cross validation with chosen hyper-parameters for different Algorithms respectively
 - Model with the best estimators in individual classifiers 
+
  ![Model Performance - After](<images/model-performance-after.png>)
 
  ![tabular-after](<images/model-perf-tabular-after.png>)
