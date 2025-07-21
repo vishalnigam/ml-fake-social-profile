@@ -56,7 +56,7 @@ in_reply_to_status_id               If it's a reply, this is the ID of the origi
 in_reply_to_user_id                 User ID of the person being replied to (if applicable).
 in_reply_to_screen_name             Screen name of the person being replied to (if available).
 retweeted_status_id                 If this is a retweet, the ID of the original tweet that was retweeted.
-geo	                                Geographic location associated with the tweet (may be empty or null).
+geo                                 Geographic location associated with the tweet (may be empty or null).
 
 (Additional Metadata Columns)
 favorited                           Boolean indicating whether the tweet was liked (favorited) by the authenticated user (if applicable).
