@@ -76,16 +76,16 @@ updated	Last                  updated timestamp for this data record (may be sam
 Column Name	                        Description
 ==================================================================================================
 (Tweet User Data)
-id	                                Unique user ID assigned by Twitter.
-name	                              User's full name (as displayed on their profile).
-screen_name	                        Twitter handle (e.g., @elonmusk).
-statuses_count	                    Total number of tweets (including retweets) posted by the user.
-followers_count	                    Number of followers the user has.
-friends_count	                      Number of accounts the user is following.
-favourites_count	                  Number of tweets the user has liked (favorited).
-listed_count	                      Number of public Twitter lists the user is a member of.
-url	                                URL specified in the user's profile (if any).
-lang	                              Language setting of the user’s profile (e.g., en for English).
+id                                  Unique user ID assigned by Twitter.
+name                                User's full name (as displayed on their profile).
+screen_name                         Twitter handle (e.g., @elonmusk).
+statuses_count                      Total number of tweets (including retweets) posted by the user.
+followers_count                     Number of followers the user has.
+friends_count                       Number of accounts the user is following.
+favourites_count                    Number of tweets the user has liked (favorited).
+listed_count                        Number of public Twitter lists the user is a member of.
+url                                 URL specified in the user's profile (if any).
+lang                                Language setting of the user’s profile (e.g., en for English).
 
 time_zone                           User’s declared time zone (missing/NaN)
 location                            User’s declared location (missing/NaN)                                           
