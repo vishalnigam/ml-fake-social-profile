@@ -21,11 +21,11 @@ Most of the features in users account table are relevent to asthetic of the twee
   - `url`              - User-defined link in their Twitter bio, typically pointing to personel website, blog etc
   - `geo_enabled`      - User has allowed geolocation (location tagging) in their tweets
 - _Followers_
-  - `source_id`
-  - `target_id`
+  - `source_id`        - Twitter account id
+  - `target_id`        - Followers twitter account id 
 - _Friends_
-  - `source_id`
-  - `target_id`
+  - `source_id`        - Twitter account id 
+  - `target_id`        - Friends twitter account id 
 
 **Data Observation**:
 - Based on the correlation between various feature with account type (Real|Fake) 
