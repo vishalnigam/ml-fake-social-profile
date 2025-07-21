@@ -54,6 +54,7 @@ between 75% to 100% quartile
   - Fake users relations among various features are concentrated and have similar pattern rather than distributed which give sense of abnormality or seems generated based on certain logic
   - Distribution plot for various feature reflect the similar observations
 
+# Modeling
 **Modeling Objectives**
 - Compare the performance of the classifiers :
   - K Nearest Neighbor
@@ -64,7 +65,7 @@ between 75% to 100% quartile
   - Time to fit
   - Predication efficacy
 
-**Base Modelling (Dummy Classifier)**
+**Base Modeling (Dummy Classifier)**
 Baseline modelling with DummyClassfier 
 - Baseline Accuracy:        0.8650793650793651
 - Baseline F1 Score:        0.8024991556906451
