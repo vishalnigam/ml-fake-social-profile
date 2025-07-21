@@ -75,10 +75,19 @@ Baseline modelling with DummyClassfier
 **Model Performance**
 - Run all the classifier algorithms - KNN, Logistic regression, Decision Tree and SVM, with default hyperparameters
  ![Model Performance - Before](<images/model-performance-before.png>)
+ 
+ ![tabular-before](<images/model-perf-tabular-before.png>)
 - Execute cross validation with chosen hyper-parameters for different Algorithms respectively
 - Model with the best estimators in individual classifiers 
  ![Model Performance - After](<images/model-performance-after.png>)
 
+ ![tabular-after](<images/model-perf-tabular-after.png>)
+
+**Model Evaluation**
+- Decision Tree Classifier took min average time (0.037921) among others to fit the model
+- DTC score well on training score (0.998412) but badly perform in comparision to other models for test score (0.982540) which clearly overfitted
+- Space Vector Classifier achieve maximum accuracy (0.992063) along with highest test score (0.992063) 
+- Overall,  Space Vector Classifier achieve highest rating and Decision treen classifier being the worst performance
 
 # Link to Jupyter notebook
 [notebook link](https://github.com/vishalnigam/ml-fake-social-profile/blob/main/user-account.ipynb)
