@@ -93,8 +93,15 @@ Baseline modelling with DummyClassfier
 - Space vector classification took maximum time (78.630172) to fit 
 - Overall, Decision Tree Classifier achieve highest rating and being best with highers accuracy (0.978820) and best f1-score (0.972332)
 
-**Recommmandation and next steps**
-- To increase model prediction, ensamble or stacked multiple models would be recommanded. Currently, account dataset   
+**Recommmandation and next steps** 
+- In the current modeling strategy, only user account dataset is being used but it can be complemented with other 
+dataset to derive graph-based connections among friends, followers, likes etc. or user activities like posts/day, 
+likes/day, tweets/day
+- Random forest is suited for high-dimentional & structured data to capture non-linear relationship between features
+interactions mostly undermine relation between users in followers or friends data set. It can be complement with XGBoost in an `ensemble` techniques (_stacking_ or _voting classifier_) can reduce the overfitting and improve generalization with improve model prediction 
+- Feature level combination use prediction from one model as feature in another. Train XGBoost on source_id, target_id
+edges and interactions (network based features).Train random forest or KNN on user defined fetures (likes, followers etc.). Combine both model predictions into `meta-classifier` 
+
 
 # Link to Jupyter notebook
 [notebook link](https://github.com/vishalnigam/ml-fake-social-profile/blob/main/user-account.ipynb)
