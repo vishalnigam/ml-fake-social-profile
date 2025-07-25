@@ -87,10 +87,14 @@ Baseline modelling with DummyClassfier
  ![tabular-after](<images/model-perf-tabular-after.png>)
 
 **Model Evaluation**
-- Decision Tree Classifier took min average time (0.037921) among others to fit the model
-- DTC score well on training score (0.998412) but badly perform in comparision to other models for test score (0.982540) which clearly overfitted
-- Space Vector Classifier achieve maximum accuracy (0.992063) along with highest test score (0.992063) 
-- Overall,  Space Vector Classifier achieve highest rating and Decision treen classifier being the worst performance
+- Decision Tree Classifier took min average time (0.0339101) among all the modeling technique used to fit the model
+- Decisoin Tree Classifier score well on training (0.9873990) and perform well in comparision to other models for test  score (0.978820) as well with no signs of over-fitting
+- Closest to DTC result is KNN model which achieves near same result with maximum accuracy (0.975794) 
+- Space vector classification took maximum time (78.630172) to fit 
+- Overall, Decision Tree Classifier achieve highest rating and being best with highers accuracy (0.978820) and best f1-score (0.972332)
+
+**Recommmandation and next steps**
+- To increase model prediction, ensamble or stacked multiple models would be recommanded. Currently, account dataset   
 
 # Link to Jupyter notebook
 [notebook link](https://github.com/vishalnigam/ml-fake-social-profile/blob/main/user-account.ipynb)
