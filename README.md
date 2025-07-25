@@ -100,7 +100,8 @@ likes/day, tweets/day
 - Random forest is suited for high-dimentional & structured data to capture non-linear relationship between features
 interactions mostly undermine relation between users in followers or friends data set. It can be complement with XGBoost in an `ensemble` techniques (_stacking_ or _voting classifier_) can reduce the overfitting and improve generalization with improve model prediction 
 - Feature level combination use prediction from one model as feature in another. Train XGBoost on source_id, target_id
-edges and interactions (network based features).Train random forest or KNN on user defined fetures (likes, followers etc.). Combine both model predictions into `meta-classifier` 
+edges and interactions (network based features).Train random forest or KNN on user defined fetures (likes, followers etc.). Combine both model predictions into `meta-classifier` improve the model prediction.
+- Either of these technique can be used to diffrenciate fake/bot-generated users to avoid customers to fall pray of digital frauds and improve the efficacy of the model. 
 
 
 # Link to Jupyter notebook
