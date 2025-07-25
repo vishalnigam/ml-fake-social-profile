@@ -73,18 +73,7 @@ Baseline modelling with DummyClassfier
 - Baseline Recall Score:    0.8650793650793651
 
 **Model Performance**
-- Run all the classifier algorithms - KNN, Logistic regression, Decision Tree and SVM, with default hyperparameters
 
- ![Model Performance - Before](<images/model-performance-before.png>)
-
- ![tabular-before](<images/model-perf-tabular-before.png>)
-
-- Execute cross validation with chosen hyper-parameters for different Algorithms respectively
-- Model with the best estimators in individual classifiers 
-
- ![Model Performance - After](<images/model-performance-after.png>)
-
- ![tabular-after](<images/model-perf-tabular-after.png>)
 
 **Model Evaluation**
 - Decision Tree Classifier took min average time (0.0339101) among all the modeling technique used to fit the model
